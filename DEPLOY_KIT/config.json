@@ -1,0 +1,35 @@
+{
+  "_INSTRUCTIONS": "Fill in ALL values below before running deploy.ps1. Never share this file publicly.",
+
+  "aws": {
+    "region": "us-east-1",
+    "_note": "Keep us-east-1. Changing region may break free tier limits."
+  },
+
+  "razorpay": {
+    "key_id": "YOUR_RAZORPAY_KEY_ID",
+    "key_secret": "YOUR_RAZORPAY_KEY_SECRET",
+    "_where": "razorpay.com → Login → Settings → API Keys → Generate Test Key"
+  },
+
+  "twilio": {
+    "account_sid": "YOUR_TWILIO_ACCOUNT_SID",
+    "auth_token": "YOUR_TWILIO_AUTH_TOKEN",
+    "whatsapp_from": "whatsapp:+14155238886",
+    "sandbox_join_code": "join exclaimed-year",
+    "_where": "console.twilio.com → Dashboard (top left shows SID + Token)"
+  },
+
+  "groq": {
+    "api_key": "YOUR_GROQ_API_KEY",
+    "_where": "console.groq.com → API Keys → Create Key",
+    "_model": "llama3-8b-8192",
+    "_free_tier": "14400 requests/day free"
+  },
+
+  "app": {
+    "default_admin_username": "admin",
+    "default_admin_password": "1234",
+    "_note": "Change password after first login via Admin > Staff Management"
+  }
+}

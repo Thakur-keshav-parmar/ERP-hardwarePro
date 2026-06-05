@@ -1,0 +1,28 @@
+# ─── CREDENTIALS — NEVER COMMIT ──────────────────────────────────────────────
+credentials/
+*.csv
+*.pem
+*.key
+.env
+.env.*
+secrets.json
+config.js
+
+# ─── AWS ──────────────────────────────────────────────────────────────────────
+__AWS KEYS/
+aws-exports.js
+
+# ─── CLAUDE / GRAPHIFY METADATA ───────────────────────────────────────────────
+.claude/
+.graphify_python
+.graphify_detect.json
+.graphify_uncached.txt
+graphify-out/cache/
+
+# ─── OS FILES ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── NODE ─────────────────────────────────────────────────────────────────────
+node_modules/
